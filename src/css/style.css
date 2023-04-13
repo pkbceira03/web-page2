@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.clear{
+    clear: both;
+}
+
+.container{
+    max-width: 1480px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+html, body{
+    height: 100%;
+}
+
+.logo p{
+    float: left;
+    width: 236px;
+    height: 50px;
+    background-color: aqua;
+}
