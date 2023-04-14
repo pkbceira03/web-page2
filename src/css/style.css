@@ -10,18 +10,49 @@
 }
 
 .container{
-    max-width: 1480px;
+    max-width: 1400px;
     width: 100%;
     margin: 0 auto;
 }
 
 html, body{
     height: 100%;
+    /* background-color: gray; */
 }
 
-.logo p{
+header{
+    padding: 20px 2%;
+}
+
+.logo{
     float: left;
-    width: 236px;
-    height: 50px;
-    background-color: aqua;
+    width: 160px;
+    height: 40px;
+    background-color: #ccc;
+    /* margin: 15px;*/
+} 
+
+.logo p{
+    padding: 10px 60px;
+}
+
+header nav{
+    float: right;
+}
+
+header nav ul{
+    padding: 8px 0;
+    list-style-type: none;
+}
+
+header nav ul li{
+    float: left;
+    padding: 0 20px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+header ul a{
+    color: #b4b4b4;
+    text-decoration: none;
 }
