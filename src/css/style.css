@@ -36,11 +36,16 @@ header{
     padding: 10px 60px;
 }
 
-header nav{
+nav.menu-mobile{
+    display: none;
     float: right;
 }
 
-header nav ul{
+header nav .menu-desktop{
+    float: right;
+}
+
+header nav.menu-desktop ul{
     padding: 8px 0;
     list-style-type: none;
 }
@@ -178,6 +183,14 @@ section.perfil-container .texto-perfil p{
 }
 
 @media screen and (max-width: 768px){
+    nav.menu-desktop{
+        display: none;
+    }
+
+    nav.menu-mobile{
+        display: block;
+    }
+
     section.servicos > .container{
         flex-direction: column;
     }
