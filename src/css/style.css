@@ -297,6 +297,26 @@ section.depoimentos .depoimento-single{
     vertical-align: top;
 }
 
+.chamada-instagram{
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 40px 0;
+    background: #98a5ae;
+}
+
+.chamada-instagram img{
+    height: 32px;
+    width: 32px;
+}
+
+.chamada-instagram p{
+    line-height: 23px;
+    color: white;
+    padding: 10px 0;
+    font: 13px;
+}
+
 @media screen and (max-width: 768px){
     nav.menu-desktop{
         display: none;
