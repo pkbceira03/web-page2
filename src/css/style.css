@@ -204,6 +204,17 @@ section.perfil-container .texto-perfil p{
     margin-top: 8px;
 }
 
+section.videos{
+    padding: 50px 0;
+}
+
+section.videos .box-video{
+    float: left;
+    width: 33.3%;
+    background-color: green;
+    padding-top: calc(33.3% * 0.6);
+}
+
 @media screen and (max-width: 768px){
     nav.menu-desktop{
         display: none;
