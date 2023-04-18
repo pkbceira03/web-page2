@@ -258,6 +258,45 @@ section.tratamento .tratamento-container{
     color: #b4b4b4;
 }
 
+section.depoimentos > h2{
+    color: #698293;
+    text-align: center;
+    font-size: 20px;
+}
+
+section.depoimentos > .container{
+    padding: 70px 0;
+    max-width: 400px;
+}
+
+section.depoimentos .depoimento-single{
+    text-align: center;
+}
+
+.depoimento-single quote{
+    font-size: 15px;
+    color: #4b4b4b;
+}
+
+.depoimento-single .nome-depoimento{
+    padding: 19px 0;
+}
+
+.nome-depoimento img{
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+}
+
+.nome-depoimento span{
+    position: relative;
+    top: 4px;
+    font-size: 13px;
+    color: #4b4b4b;
+    display: inline-block;
+    vertical-align: top;
+}
+
 @media screen and (max-width: 768px){
     nav.menu-desktop{
         display: none;
