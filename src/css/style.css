@@ -317,6 +317,20 @@ section.depoimentos .depoimento-single{
     font: 13px;
 }
 
+.mosaicosocial{
+    float: left;
+    width: 100%;
+}
+
+.img-mosaico-single-social{
+    float: left;
+    width: calc(100% / 9);
+    padding-top: calc(100% / 9);
+    background-image: url(../images/feliz.jpg);
+    background-size: 100% 100%;
+    border: 6px solid white;
+}
+
 @media screen and (max-width: 768px){
     nav.menu-desktop{
         display: none;
