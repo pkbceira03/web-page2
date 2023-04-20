@@ -331,6 +331,26 @@ section.depoimentos .depoimento-single{
     border: 6px solid white;
 }
 
+.chamada-facebook{
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 40px 0;
+    background-color: #576975;
+}
+
+.chamada-facebook img{
+    height: 32px;
+    width: 32px;
+}
+
+.chamada-facebook p{
+    line-height: 23px;
+    color: white;
+    padding: 10px 0;
+    font-size: 13px;
+}
+
 @media screen and (max-width: 1280px){
     .img-mosaico-single-social{
         width: calc(100% / 6);
