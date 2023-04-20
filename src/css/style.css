@@ -317,7 +317,7 @@ section.depoimentos .depoimento-single{
     font: 13px;
 }
 
-.mosaicosocial{
+.mosaico-social{
     float: left;
     width: 100%;
 }
@@ -329,6 +329,16 @@ section.depoimentos .depoimento-single{
     background-image: url(../images/feliz.jpg);
     background-size: 100% 100%;
     border: 6px solid white;
+}
+
+@media screen and (max-width: 1280px){
+    .img-mosaico-single-social{
+        width: calc(100% / 6);
+        padding-top: calc(100% / 6);
+    }
+    .mosaico-social > div:nth-of-type(1n+7){
+        display: none;
+    }
 }
 
 @media screen and (max-width: 768px){
@@ -395,6 +405,14 @@ section.depoimentos .depoimento-single{
         width: 70%;
         display: inline-block;
         padding-top: calc(70% * 0.6);
+    }
+
+    .img-mosaico-single-social{
+        width: calc(100% / 3);
+        padding-top: calc(100% / 3);
+    }
+    .mosaico-social > div:nth-of-type(1n+4){
+        display: none;
     }
 }
 
