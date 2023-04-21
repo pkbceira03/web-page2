@@ -351,6 +351,69 @@ section.depoimentos .depoimento-single{
     font-size: 13px;
 }
 
+section.contato{
+    padding: 60px 2%;
+}
+
+section.contato > h2{
+    color: #698293;
+    text-align: center;
+    font-size: 18px;
+}
+
+section.contato form{
+    width: 100%;
+    margin: 30px auto;
+    max-width: 500px;
+}
+
+.form-wraper{
+    float: left;
+    padding: 0 10px;
+    margin-top: 10px;
+}
+
+.w100{
+    width: 100%;
+}
+
+.w50{
+    width: 50%;
+}
+
+.form-wraper span{
+    font-size: 15px;
+    color: #4b4b4b;
+}
+
+.form-wraper input[type=text]{
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 9px;
+    border: 1px solid #dadada;
+    margin-top: 8px;
+}
+
+.form-wraper textarea{
+    margin-top: 8px;
+    width: 100%;
+    padding: 8px;
+    height: 121px;
+    resize: none;
+    border: 1px solid #dadada;
+}
+
+.form-wraper input[type=submit]{
+    width: 100px;
+    height: 35px;
+    border: 0;
+    background: #688293;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+}
+
 @media screen and (max-width: 1280px){
     .img-mosaico-single-social{
         width: calc(100% / 6);
@@ -445,5 +508,9 @@ section.depoimentos .depoimento-single{
     section.videos .box-video{
         width: 100%;
         padding-top: calc(100% * 0.6);
-    }    
+    } 
+    
+    .w50{
+        width: 100%;
+    }
 }
