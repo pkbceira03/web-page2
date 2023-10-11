@@ -167,7 +167,7 @@ section.perfil-container{
 section.perfil-container .perfil-wraper{
     padding-top: 40%;
     position: relative;
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -200,8 +200,9 @@ section.perfil-container .texto-perfil h2{
 
 section.perfil-container .texto-perfil p{
     color: #4b4b4b;
-    font-size: 14px;
+    font-size: 16px;
     margin-top: 8px;
+    line-height: 25px;
 }
 
 section.videos{
@@ -452,6 +453,35 @@ footer .footer-block{
     }
 }
 
+@media screen and (max-width: 1000px){
+    
+    section.perfil-container .perfil-wraper{
+        padding-top: 0;
+    }
+
+    section.perfil-container .perfil-wraper2{
+        display: inline-block;
+        text-align: center;
+        height: auto;
+        position: static;
+        /* background-color: green; */
+    }
+
+    section.perfil-container .img-perfil{
+        width: 50%;
+        padding-top: 70%;
+        display: inline-block;
+        height: auto;
+    }
+
+    section.perfil-container .texto-perfil{
+        display: inline-block;
+        text-align: justify;
+        width: 100%;
+        padding: 0 30px;
+    }
+}
+
 @media screen and (max-width: 768px){
     footer .footer-block{
         float:none;
@@ -485,32 +515,6 @@ footer .footer-block{
         width: 90%;
         max-width: 350px;
         padding: 30px 2%;
-    }
-
-    section.perfil-container .perfil-wraper{
-        padding-top: 0;
-    }
-
-    section.perfil-container .perfil-wraper2{
-        display: inline-block;
-        text-align: center;
-        height: auto;
-        position: static;
-        /* background-color: green; */
-    }
-
-    section.perfil-container .img-perfil{
-        width: 50%;
-        padding-top: 70%;
-        display: inline-block;
-        height: auto;
-    }
-
-    section.perfil-container .texto-perfil{
-        display: inline-block;
-        text-align: justify;
-        width: 100%;
-        padding: 0 30px;
     }
 
     section.videos{
